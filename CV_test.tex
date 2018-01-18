@@ -1,0 +1,85 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,11pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\graphicspath{ {images/}} %upload your signature to this file
+%Change the margins to fit your CV/resume content
+\usepackage[left=1in, right=1in, bottom=1.25in, top=1.25in]{geometry}
+
+%Skype information - include your Skype name for a link to add you on Skype
+\newcommand*{\Skype}{\href{skype:scottpiliben?add}{scottpiliben}} 
+\newcommand{\Absender}[1][\normalsize]{\Skype} 
+
+%Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
+
+\noindent  \LARGE{\textbf{Yen-Cheng Bernard Huang}}  \\
+\vspace{-2ex}
+\hline 
+\normalsize
+
+%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
+% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
+
+\begin{center}
+\begin{tabular}
+\href {Mail to : scottpiliben@gmail.com} \\
+\hspace{1in} Skype: \Absender  \\
+\hspace{1in} Phone: (+886)983-577-597 \\
+\end{tabular}
+\end{center}
+\hline 
+\vspace{1em}
+
+%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Education}    & \textbf{Most Recent University} \\
+     & M.A, Physics, 2018. \\
+     & Fields: Machine Learning, Pattern recognition, CNN \\
+     & B.A., Physics, 2016. \\
+     &\\
+     & \textbf{National Sun Yat-sen University} \\
+ \Large{Thesis}    & ``The analysis of single neuron branch point within Drosophila brain" \\
+    & \parbox{5.0in}{This study could show some potential relationship}\\
+    & \textbf{ within the
+       branch-point number and its morphology.}\\
+    & \textbf{Utilizing CNN verifies the image of the   neuron number. }\\
+    & \\
+ \Large{Proficient Skills  }    & \textbf{Data analysis tools: } \\
+    & \textbf{EEG analyze : EEGLAB Curry8} \\
+    & \textbf{Programming languages  : Matlab/Python/C} \\
+ \Large{And Knowledge}  \\
+    &\textbf{Selective Courses: Stochastics Simulation Methods}  \\
+    &\textbf{and Its Application In SJTU}\\
+    &\\
+    &\textbf{Brain-Computer Interface : Principles and Practice}
+&\\
+\Large{Research Interests  } & \textbf{Neuroimaging (EEG,Graph Theory(Network))  } \\
+& \textbf{Machine Learning(CNN...)} \\
+\Large{Awards}\\
+& \textbf{Great Performance in Neuroscience summer intern 2016}\\
+& \textbf{Topic : Stochastic Resonance in Zebra Fish}\\
+& \textbf{Supervisor: C. K. Chan}\\
+& \textbf{(Institute of Physics in Academic Sinica) }\\
+&\\
+&\\
+\Large{Reach and Work Experience}\\
+& \textbf{ Neuroscience summer intern in Academia Sinica 2016}\\
+ &\textbf{ Summer Exchange student in SJTU,Shanghai 2017}
+\end{tabular}
+
+
+\end{document}
+
